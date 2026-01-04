@@ -8,3 +8,13 @@
   z-index: -1; /* Places the video behind other content */
   object-fit: cover; /* Ensures the video covers the area without distortion, like background-size: cover for images */
 }
+.pixe {
+      font-family: 'Press Start 2P', cursive;
+      font-size: 50px;
+      text-transform: uppercase;
+      /* This property prevents the browser from blurring the pixels */
+      image-rendering: pixelated; 
+      text-shadow: 6px 6px #143b2d96;
+      color: rgb(183, 230, 209)
+
+    }
