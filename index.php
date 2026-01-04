@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pixelated To-Do-List</title>
+    <title>QuestLog.io</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,7 +23,7 @@
 
     <header>
 
-    <h2 class="pixe"> <b>PIXE-LATED</b></h2>
+    <h2 class="pixe"> <b>QUEST-LOG</b></h2>
    <div id="nav"> <nav class="navigation">
         <a href="#">Home</a>
         <a href="#">About</a>
