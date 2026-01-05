@@ -42,36 +42,38 @@
         </nav>
     </header>
     <div class="wrapper">
-        <div class="form-box login">
-            <h2 class="log-box">Login</h2>
-            <form action="#">
-                <div class="input-box">
-                    <span class="icon"></span>
-                    <img src="mail (1).png" alt="Email">
-                    <input type="email" required>
-                    <label> Email</label>
-                </div>
-                <div class="input-box">
-                    <span class="icon"></span>
-                    <img src="lock.png" alt="Password">
-                    <input type="password" required>
-                    <label>Password</label>
-                </div>
-                <div class="remember-forgot">
-                    <label> <input type="checkbox">Remember me</label>
-                    <a href="#">Forgot Password?</a>
-                    <br>
+        <div class="form-box">
+            <div class="content">
+                <h2 class="log-box">Login</h2>
+                <form action="#">
+                    <div class="input-box">
+                        <span class="icon"></span>
+                        <img src="mail (1).png" alt="Email">
+                        <input type="email" required>
+                        <label> Email</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"></span>
+                        <img src="lock.png" alt="Password">
+                        <input type="password" required>
+                        <label>Password</label>
+                    </div>
+                    <div class="remember-forgot">
+                        <label> <input type="checkbox">Remember me</label>
+                        <a href="#">Forgot Password?</a>
+                        <br>
 
-                    <button type="submit" class="btn">Login</button>
-                </div>
-
-
-                <div class="login-register">
-                    <p>Don't have an account? <a href="#" class="register-link">Register</a></p>
-                </div>
+                        <button type="submit" class="btn">Login</button>
+                    </div>
 
 
-            </form>
+                    <div class="login-register">
+                        <p>Don't have an account? <a href="#" class="register-link">Register</a></p>
+                    </div>
+
+
+                </form>
+            </div>
         </div>
     </div>
 

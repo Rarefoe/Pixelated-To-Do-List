@@ -8,14 +8,13 @@ body {
 }
 
 .wrapper {
-    box-sizing: border-box;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    font-family: 'Press Start 2P', cursive;
     min-height: 100vh;
-
-
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px; /* Space for the header */
+    box-sizing: border-box;
 }
 
 /* Video Background */
@@ -104,11 +103,35 @@ body {
     justify-content: center;
     padding-top: 120px;
 
+
+}
+.form-box {
+    width: 480px;
+    height: 420px;
+
+    background-image: url("pixelated-image.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    image-rendering: pixelated;
+    font-family: 'Press Start 2P', cursive;
+
+    /* This centers content INSIDE parchment */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 30px 10px;
+}
+.content{
+     width: 100%;
 }
 
 .log-box {
     font-family: 'Press Start 2P', cursive;
-    font-size: x-large;
+
     text-align: center;
 }
 
@@ -116,7 +139,21 @@ body {
     font-family: 'Press Start 2P', cursive;
     margin: 10px;
     padding: 10px;
-    font-size: medium;
+
     text-align: center;
 
+}
+.remember-forgot {
+    font-family: 'Press Start 2P', cursive;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 20px;
+ 
+}
+.login-register {
+    font-family: 'Press Start 2P', cursive;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 20px;
+ 
 }
