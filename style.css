@@ -7,15 +7,9 @@ body {
 
 }
 
-.wrapper {
-    font-family: 'Press Start 2P', cursive;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 100px; /* Space for the header */
-    box-sizing: border-box;
-}
+
+
+
 
 /* Video Background */
 .video-background video {
@@ -96,37 +90,41 @@ body {
 }
 
 .wrapper {
+  
     font-family: 'Press Start 2P', cursive;
     min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 120px;
+    padding-top: 100px; 
+    box-sizing: border-box;
 
 
 }
 .form-box {
-    width: 480px;
-    height: 420px;
-
+width: 550px; 
+    height: 600px; 
     background-image: url("pixelated-image.webp");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-
+    background-color: transparent; 
+    
     image-rendering: pixelated;
-    font-family: 'Press Start 2P', cursive;
-
-    /* This centers content INSIDE parchment */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
-    padding: 30px 10px;
+    padding: 60px; 
+}
 }
 .content{
      width: 100%;
+}
+.form-box h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #000;
 }
 
 .log-box {
@@ -136,11 +134,13 @@ body {
 }
 
 .input-box {
-    font-family: 'Press Start 2P', cursive;
-    margin: 10px;
-    padding: 10px;
-
-    text-align: center;
+ 
+    position: relative;
+    width: 100%;
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
 }
 .remember-forgot {
@@ -150,7 +150,7 @@ body {
     margin: 10px 20px;
  
 }
-.login-register {
+. {
     font-family: 'Press Start 2P', cursive;
     display: flex;
     justify-content: space-between;
