@@ -44,7 +44,7 @@
     <div class="wrapper">
         <div class="form-box">
             <div class="content">
-                <h2 class="log-box">Login</h2>
+                <h2 class="log-box">Player Login...</h2>
                 <form action="#">
                     <div class="input-box">
                         <span class="icon"></span>
@@ -63,7 +63,7 @@
                         <a href="#">Forgot Password?</a>
                         <br>
 
-                        <button type="submit" class="btn">Login</button>
+                        <button type="submit" class="btn-submit">Login</button>
                     </div>
 
 

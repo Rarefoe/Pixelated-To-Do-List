@@ -167,11 +167,12 @@ position: relative;
 
 /* Style for the 'Remember Me' and links */
 .remember-forgot {
+    text-align: center;
     width: 100%;
     display: flex;
     justify-content: space-between;
     font-size: 8px;
-    margin: 10px 0;
+    margin: 10px 30px;
 }
 
 .remember-forgot a, .login-register a {
@@ -181,9 +182,10 @@ position: relative;
 
 /* The Login Button */
 .btn-submit {
-    width: 100%;
+    
+    width: 50%;
     margin-top: 20px;
-    padding: 15px;
+    padding: 30px;
     font-family: 'Press Start 2P', cursive;
     background-color: #4ae7a0;
     border: 4px solid #000;
