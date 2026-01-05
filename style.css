@@ -101,59 +101,97 @@ body {
 
 
 }
-.form-box {
-width: 550px; 
-    height: 600px; 
-    background-image: url("pixelated-image.webp");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: transparent; 
+.form-box{
+position: relative;
+    width: 450px;
+    background: #f4e4bc; /* Parchment Yellow */
+    padding: 40px;
     
-    image-rendering: pixelated;
+    /* Creates the Pixel Border Effect */
+    border: 4px solid #000;
+    box-shadow: 
+        8px 0 0 0 #000, 
+        -8px 0 0 0 #000, 
+        0 8px 0 0 #000, 
+        0 -8px 0 0 #000;
+        
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    padding: 60px; 
 }
+
+/* Add "Scroll Ends" using pseudo-elements for that RPG look */
+.form-box::before, .form-box::after {
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 105%;
+    background: #8b4513; /* Dark Wood color */
+    border: 4px solid #000;
 }
-.content{
-     width: 100%;
-}
+
+.form-box::before { top: -25px; } /* Top wood roller */
+.form-box::after { bottom: -25px; } /* Bottom wood roller */
+
 .form-box h2 {
-    font-size: 28px;
+    color: #3e2723;
     margin-bottom: 30px;
-    color: #000;
+    font-size: 24px;
 }
 
-.log-box {
-    font-family: 'Press Start 2P', cursive;
-
-    text-align: center;
-}
-
+/* Fix the inputs to be side-by-side with labels */
 .input-box {
- 
-    position: relative;
     width: 100%;
-    margin: 15px 0;
+    margin-bottom: 20px;
     display: flex;
+    flex-direction: row-reverse; /* Puts label on the right */
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-end;
+    gap: 15px;
+}
 
+.input-box input {
+    width: 180px;
+    padding: 8px;
+    border: 3px solid #000;
+    background: #fff;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 10px;
 }
+
+.input-box label {
+    font-size: 10px;
+    color: #3e2723;
+    width: 100px;
+}
+
+/* Style for the 'Remember Me' and links */
 .remember-forgot {
-    font-family: 'Press Start 2P', cursive;
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    margin: 10px 20px;
- 
+    font-size: 8px;
+    margin: 10px 0;
 }
-. {
+
+.remember-forgot a, .login-register a {
+    color: #7b1fa2;
+    text-decoration: none;
+}
+
+/* The Login Button */
+.btn-submit {
+    width: 100%;
+    margin-top: 20px;
+    padding: 15px;
     font-family: 'Press Start 2P', cursive;
-    display: flex;
-    justify-content: space-between;
-    margin: 10px 20px;
- 
+    background-color: #4ae7a0;
+    border: 4px solid #000;
+    cursor: pointer;
+    box-shadow: 4px 4px 0px #143b2d;
+}
+
+.btn-submit:active {
+    box-shadow: none;
+    transform: translate(2px, 2px);
 }
