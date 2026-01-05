@@ -43,12 +43,12 @@
     </header>
     <div class="wrapper">
         <div class="form-box login">
-            <h2>Login</h2>
+            <h2 class="log-box">Login</h2>
             <form action="#">
                 <div class="input-box">
                     <span class="icon"></span>
-                   <img src="mail (1).png" alt="Email"> 
-                   <input type="email" required>
+                    <img src="mail (1).png" alt="Email">
+                    <input type="email" required>
                     <label> Email</label>
                 </div>
                 <div class="input-box">
@@ -60,10 +60,16 @@
                 <div class="remember-forgot">
                     <label> <input type="checkbox">Remember me</label>
                     <a href="#">Forgot Password?</a>
-               <button type="submit" class="btn">Login</button>
+                    <br>
+
+                    <button type="submit" class="btn">Login</button>
                 </div>
+
+
                 <div class="login-register">
-                    <p>Don't have an account? <a href="#" class="register-link">Register</a></p
+                    <p>Don't have an account? <a href="#" class="register-link">Register</a></p>
+                </div>
+
 
             </form>
         </div>
