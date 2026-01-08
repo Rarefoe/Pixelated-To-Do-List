@@ -9,6 +9,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jacquard+12&family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -40,6 +43,7 @@
             <a href="#">Contact</a>
             <button class="btn-login-popup"><a href="login/regs.php">Login</a></button>
         </nav>
+        
     </header>
     <main class="quest-container">
         <p class="quest-intro">
