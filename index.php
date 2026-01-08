@@ -41,40 +41,41 @@
             <button class="btn-login-popup">Login</button>
         </nav>
     </header>
-   <div class="wrapper">
-    <div class="form-box">
-        <h2>Player Login...</h2>
-        
-        <form>
-            <div class="input-group">
-                <label>Email</label>
-                <div class="input-field-wrapper">
-                    <input type="email" required>
-                    <img src="mail (1).png" alt="mail">
-                </div>
-            </div>
+    <div class="wrapper">
+        <div class="form-box">
+            <div class="content">
+                <h2 class="log-box">Player Login...</h2>
+                <form action="#">
+                    <div class="input-box">
+                        <span class="icon"></span>
+                        <img src="mail (1).png" alt="Email">
+                        <input type="email" required>
+                        <label> Email</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"></span>
+                        <img src="lock.png" alt="Password">
+                        <input type="password" required>
+                        <label>Password</label>
+                    </div>
+                    <div class="remember-forgot">
+                        <label> <input type="checkbox">Remember me</label>
+                        <a href="#">Forgot Password?</a>
+                        <br>
 
-            <div class="input-group">
-                <label>Password</label>
-                <div class="input-field-wrapper">
-                    <input type="password" required>
-                    <img src="lock.png" alt="lock">
-                </div>
-            </div>
+                        <button type="submit" class="btn-submit">Login</button>
+                    </div>
 
-            <div class="remember-forgot">
-                <label><input type="checkbox"> Remember me</label>
-                <a href="#">Forgot?</a>
-            </div>
 
-            <button type="submit" class="btn-submit">Login</button>
+                    <div class="login-register">
+                        <p>Don't have an account? <a href="#" class="register-link">Register</a></p>
+                    </div>
 
-            <div class="login-register">
-                <p>No account? <a href="#">Register</a></p>
+
+                </form>
             </div>
-        </form>
+        </div>
     </div>
-</div>
     
 
 </body>
