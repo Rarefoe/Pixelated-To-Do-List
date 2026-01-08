@@ -42,6 +42,13 @@
         </nav>
     </header>
     <main class="quest-container">
+        <p class="quest-intro">
+    Welcome, Adventurer.<br><br>
+    QuestLog is a pixel-styled task manager where your daily goals become quests.
+    Complete tasks to gain experience, unlock achievements, and level up your
+    real-life productivity.
+</p>
+
     <div class="quest-box">
         <h1 class="quest-title">Your Daily Quests</h1>
         <p class="quest-subtitle">
