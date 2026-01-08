@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x:hidden;
 
 
 
@@ -30,7 +31,7 @@ body {
     left: 0;
     width: 100%;
     min-height: 100px;
-    /* ✅ use min-height */
+    
     padding: 0 50px;
     display: flex;
     justify-content: space-between;
@@ -151,7 +152,7 @@ position: relative;
     gap: 15px;
 }
 .input-box .icon{
-    position: absolute;
+    position: relative;
     right:8px;
     
 }
