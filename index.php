@@ -61,12 +61,13 @@
                         <img src="lock.png" alt="Password">
                     </div>
                 </div>
+                <button type="submit" class="btn-submit">Login</button>
                     <div class="remember-forgot">
                         <label> <input type="checkbox">Remember me</label>
                         <a href="#">Forgot Password?</a>
                         <br>
 
-                        <button type="submit" class="btn-submit">Login</button>
+                      
                     </div>
 
 
