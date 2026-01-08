@@ -47,17 +47,20 @@
                 <h2 class="log-box">Player Login...</h2>
                 <form action="#">
                     <div class="input-box">
-                        <span class="icon"></span>
-                        <img src="mail (1).png" alt="Email">
+                 <label>Email</label>
+                    <div class="input-container">
                         <input type="email" required>
-                        <label> Email</label>
+                        <img src="mail (1).png" alt="Email">
                     </div>
-                    <div class="input-box">
-                        <span class="icon"></span>
-                        <img src="lock.png" alt="Password">
+                </div>
+
+                <div class="input-box">
+                    <label>Password</label>
+                    <div class="input-container">
                         <input type="password" required>
-                        <label>Password</label>
+                        <img src="lock.png" alt="Password">
                     </div>
+                </div>
                     <div class="remember-forgot">
                         <label> <input type="checkbox">Remember me</label>
                         <a href="#">Forgot Password?</a>
@@ -76,7 +79,7 @@
             </div>
         </div>
     </div>
-    <div></div>
+    
 
 </body>
 
