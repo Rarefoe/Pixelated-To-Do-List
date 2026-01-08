@@ -41,6 +41,21 @@
             <button class="btn-login-popup"><a href="login/regs.php">Login</a></button>
         </nav>
     </header>
+    <main class="quest-container">
+    <div class="quest-box">
+        <h1 class="quest-title">Your Daily Quests</h1>
+        <p class="quest-subtitle">
+            Turn your tasks into adventures.<br>
+            Complete quests. Gain XP. Stay productive.
+        </p>
+
+        <div class="quest-buttons">
+            <a href="login/regs.php" class="quest-btn primary">Start Quest</a>
+            <a href="#" class="quest-btn secondary">View Quest Log</a>
+        </div>
+    </div>
+</main>
+
    
     
 
