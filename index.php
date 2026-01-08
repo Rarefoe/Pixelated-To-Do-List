@@ -62,6 +62,42 @@
         </div>
     </div>
 </main>
+<section class="features-section">
+    <h2 class="features-title">Quest Features</h2>
+
+    <div class="features-grid">
+        <div class="feature-card">
+            <h3>📜 Daily Quests</h3>
+            <p>Turn your to-do items into quests and track your progress like an RPG.</p>
+        </div>
+
+        <div class="feature-card">
+            <h3>⚔️ XP & Levels</h3>
+            <p>Earn experience points by completing tasks and level up your character.</p>
+        </div>
+
+        <div class="feature-card">
+            <h3>🏆 Achievements</h3>
+            <p>Unlock badges for streaks, milestones, and epic productivity runs.</p>
+        </div>
+
+        <div class="feature-card">
+            <h3>🎮 Pixel UI</h3>
+            <p>Enjoy a nostalgic pixel-game interface inspired by classic RPGs.</p>
+        </div>
+
+        <div class="feature-card">
+            <h3>🔥 Streak System</h3>
+            <p>Maintain daily streaks to gain bonus XP and rare achievement titles.</p>
+        </div>
+
+        <div class="feature-card">
+            <h3>🌟 Quest Log</h3>
+            <p>View completed and active quests in a clean RPG-style journal.</p>
+        </div>
+    </div>
+</section>
+
 
    
     
