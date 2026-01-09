@@ -47,10 +47,12 @@
     </header>
     <main class="quest-container">
         <p class="quest-intro">
-    Welcome, Adventurer.<br><br>
-    QuestLog is a pixel-styled task manager where your daily goals become quests.
+    Welcome, Adventurer...<br><br>
+    QuestLog is a pixel-styled task manager where your daily goals become quests.<br>
     Complete tasks to gain experience, unlock achievements, and level up your
-    real-life productivity.
+    real-life productivity.<br>
+
+    Ready to turn your to-dos into epic adventures beating procrastination and slaying distractions?
 </p>
 
     <div class="quest-box">
