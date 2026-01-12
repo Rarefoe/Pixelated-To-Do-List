@@ -34,6 +34,7 @@
    <header class="main-header">
         <div class="logo">
             <h2 class="pixe">QUEST-LOG...</h2>
+            <p></p>
         </div>
         <nav class="navigator">
             <a href="#">Home</a>
